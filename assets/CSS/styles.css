@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: blue;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 100px;
+    background-color: #fff;
+    color: blue;
+    text-align: center;
+    padding: 5px;
+}
+
+input[type="text"] {
+    padding: 10 px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.flex-container{
+    display: flex;
+    max-width: 1200px;
+    margin:  100 px;
+    width: 100%;
+    min-width: 300px;
+}
+
+.flex-cadastro {
+    display: flex;
+    margin: 50px;
+    margin-right: 10px;
+}
+
+.list-clientes {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.item-cliente{
+    flex: 1;
+    margin-right: 50px;
+    padding: 10px;
+    max-width: 200px;
+}
+
+footer{
+    background-color: blue;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
